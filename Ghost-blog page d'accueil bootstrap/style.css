@@ -1,0 +1,73 @@
+html, body {
+    width: auto;
+
+}
+header {
+    width: 100%;
+    height: 300px;
+    background-image: url("Images/image0.jpg");
+    background-size: 100%;       
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.nav a {
+  color: white;
+}
+
+.titre {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+
+/*------------Contenu de la page------------*/
+
+main{
+    padding: 1.5rem;
+}
+
+
+.card{
+    border: none;
+}
+
+.card-body .small{
+    color: #ff1e7d;
+}
+
+.logo{
+    height: 3rem;
+}
+
+.logo img{
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.logo h5, .logo img{
+    margin-bottom: 0;
+}
+
+article .col{
+    margin-bottom: 1rem;
+}
+
+/*banniere noire du bas*/
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-image: url("Images/noir.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+

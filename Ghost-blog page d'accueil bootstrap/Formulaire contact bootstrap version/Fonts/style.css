@@ -1,0 +1,360 @@
+
+
+/*-------partie hearder-------*/
+* {
+    margin: 0%;
+}
+
+html, body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 300px;
+    background-image: url("Images/image0.jpg");
+    background-size: 100%;
+    }
+
+header nav {
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 14%;
+    word-spacing: 20px;
+    color:white;
+    float: left;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+.hd {
+    margin-top: 1%;
+    margin-right: 24%;
+    float: right;
+    word-spacing: 10px;
+}
+
+.sub {
+    border: 0;
+    padding: 5px 5px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.titre {
+    text-align: center;
+    margin-top: 130px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.titre h1 {
+    font-size: 60px;
+    margin-bottom: 1%;
+}
+
+/*-----corp de la page-----*/
+
+.corp {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/*-------Bloc 1-------*/
+.entete {
+   margin-top: 300px;
+}
+
+.img1 {
+    width: 62%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.bloc1 {
+    text-align: left;
+    width: 29%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 82.9%;
+    margin-top: 3%;
+}
+
+
+.rose {
+    margin-top: 10%;
+    color: rgba(238, 79, 127, 0.904);
+    font-size: 105%;
+}
+
+.txgras {
+    margin-top: 3%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200%;
+}
+
+.para {
+    font-size: 105%;
+    margin-top: 3%;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+    margin-top: 6%;
+    margin-right: 4%;
+}
+
+.ghost {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/*-----Partie du milieu-----*/
+
+/*-----Bloc 2------*/
+
+.milieu {
+    float: left;
+
+ }
+ 
+ .bloc2 {
+     text-align: left;
+     width: 29.5%;
+     float: left;
+     font-size: 82.9%;
+     margin-top: 3%;
+     margin-left: 3%;
+ }
+ 
+ .img2 {
+     width: 100%
+ }
+ 
+ .rose {
+     color: rgba(238, 79, 127, 0.904);
+     font-size: 105%;
+ }
+ 
+ .txgras {
+     margin-top: 2.5%;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 200%;
+ }
+ 
+ .para {
+     font-size: 105%;
+     margin-top: 2.5%;
+ }
+ 
+ .logo {
+     width: 10%;
+     float: left;
+     margin-top: 6%;
+     margin-right: 4%;
+ }
+ 
+ .ghost {
+     margin-top: 7%;
+     margin-bottom: 1%;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+ }
+
+ /*----bloc 3----*/
+
+ .milieu {
+    float: left;
+   
+ }
+ 
+ .bloc3 {
+     text-align: left;
+     width: 29.5%;
+     float: left;
+     font-size: 82.9%;
+     margin-top: 3%;
+     margin-left: 3%;
+ }
+ 
+ .img3 {
+     width: 100%
+ }
+ 
+/*----partie 4-----*/
+ 
+.milieu {
+    float: left;
+   
+ }
+ 
+ .bloc4 {
+     text-align: left;
+     width: 29.5%;
+     float: left;
+     font-size: 82.9%;
+     margin-top: 3%;
+     margin-left: 3%;
+ }
+ 
+ .img4 {
+     width: 100%
+ }
+ 
+ /*----Partie du bas-----*/
+
+ /*----Partie 5-----*/
+
+ .bas{
+    float: left;
+   
+ }
+ 
+ .bloc5 {
+     text-align: left;
+     width: 29.5%;
+     float: left;
+     font-size: 82.9%;
+     margin-top: 3%;
+     margin-left: 3%;
+ }
+ 
+ .img5 {
+     width: 100%
+ }
+
+/*----Partie 6-----*/
+
+.bloc6 {
+    text-align: left;
+    width: 29.5%;
+    float: left;
+    font-size: 82.9%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.img6{
+    width: 100%
+}
+
+/*----Partie 6-----*/
+
+.bloc7 {
+    text-align: left;
+    width: 29.5%;
+    float: left;
+    font-size: 82.9%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.img7{
+    width: 100%
+}
+
+
+/*----Partie 7-----*/
+
+.bloc8 {
+    text-align: left;
+    width: 29.5%;
+    float: left;
+    font-size: 82.9%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.img8{
+    width: 100%
+}
+
+
+/*----Footer-----*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    width: 100%;
+    height: 220px;
+    margin-top: 3%;
+    float: left;
+    background-color: black;
+}
+
+
+.box1 {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+footer section {
+    display: inline;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    display: inline;
+   
+}
+
+.far.fa-copyright {
+    word-spacing: 4px;
+    margin-left: 4px;
+}
+
+.box2 {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    display: inline;
+}
+
+footer nav ul li  {
+    word-spacing: 10%;
+    display: inline;
+}
+
+footer a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.box3 {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+    margin-top: 20px;
+    color: white;
+}

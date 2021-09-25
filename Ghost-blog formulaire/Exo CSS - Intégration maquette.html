@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="maquetteCss.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Ghost Formulaire</title>
+    <script defer src="FormGhost.js"></script>
+</head>
+
+
+<body>
+          
+        <!--Partie header-->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://example.com">Home</a></li>
+                <li><a href="https://example.com">About</a></li>
+                <li><a href="https://example.com">Collection</a></li>
+                <li><a href="https://example.com">Author</a></li>
+                <li><a href="https://example.com">Portal</a></li>
+            </ul>
+        </nav>
+
+        <section class="hd">
+            <a href="https://fr-fr.facebook.com/" class="fab fa-facebook"></a>
+            <a href="https://twitter.com/?lang=fr" class="fab fa-twitter"></a>
+            <a type="button" class="sub" href="https://ghost-concierge.com/fr/inscription/">Subscribe</a>
+        </section>
+
+        <section class="titre">
+            <h1>CONTACT</h1>
+        </section>
+
+    </header>
+
+    <!--coeur du formulaire-->
+
+        <main class="corp">
+          <form id="form" action="/" method="GET" class= "formulaire">
+            <section class="l1">
+              <h2>First Name</h2>
+                <label for="firstN"></label>
+                  <input type="text" id="labelPrenom" class="barre"  name="prenom" >
+            </section>
+            
+            <section class="l2">
+              <h2 class="ld">Last Name</h2>
+                <label for="Nom"></label>
+                  <input type="text" id="labelName" class="barre" name="nom" >
+            </section>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+            <section class="l1">
+              <h2>Company</h2>
+                <label for="company"></label>
+                  <input type="text" id="labelCompany" class="barre" name="company">
+            </section>
+            
+            <section class="l3">
+              <h2 class="ld">Phone Number</h2>  
+                <label for="phone"></label>
+                  <input type="text" id="labelMobile" class="barre" name="phone" placeholder="04 00 00 00 00">
+            </section>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            
+
+            <section class="l1">
+              <h2>Email adress</h2>
+                <label for="email"></label>
+                  <input type="text" id="labelEmail" class="barre" name="email" placeholder="email@fedsff.com">
+                </section>
+            
+            <section class="l4">
+              <h2 class="line">Your Website</h2> 
+                <p class="line">Please include http://</p>
+                 <br>            
+                  <label for="website"></label>
+                    <input type="url"  id="labelWebsite" class="barre2" name="website"  placeholder="http://www.website.com">
+                  </section>
+
+            <br>
+            <br>
+            <br>
+            <br>  
+            
+            <p class="error" id="errorPrenom"></p>
+            <p class="error" id="errorName"></p>
+            <p class="error" id="errorCompany"></p>
+            <p class="error" id="errorNb"></p>
+            <p class="error" id="errorEmail"></p>
+            <p class="error" id="errorWebsite"></p>
+
+            <br> 
+            
+            <section class="question">
+              <h2>When is the best time of day to reach you?</h2>
+                <input type="radio" class="huey" name="drone" value="huey" checked>
+                <label for="huey">Morning</label>
+                <br>
+                <input type="radio" class="huey2" name="drone" value="huey" checked>
+                <label for="huey">Evening</label>
+            </section>
+
+            <section>
+              <h2 class="q2">Would you like to recieve our email newsletter?</h2>
+                <input type="checkbox" class="huey3" name="dro" value="hue">
+                <label for="huey">Sure!</label>
+        
+                <br>
+
+                <button type="submit" class="bleu">Submit</button>
+                </section>
+          </form>
+             
+        </main>
+
+    <!---Footer---->
+
+    <footer class="container">
+  
+      <section class="box1">
+        
+              <p>Ghost</p>
+              <p class="far fa-copyright"> 2021</p>
+              
+           
+      </section>
+
+      
+         <nav class="box2"> 
+          <ul>
+              <li><a href="https://dataprivacymanager.net/5-things-you-need-to-know-about-data-privacy/">Date & Privacy  •</a></li>
+              <li><a href="https://ghost.org/contact/">  Contact  </a></li>
+              <li><a href="https://www.kickstarter.com/?lang=fr">•  Contribute →</a></li>
+          </ul>
+         </nav> 
+      
+
+          <p class="box3">Powered by Ghost</h>
+      </div>
+  </footer>
+
+</body>
+</html>
